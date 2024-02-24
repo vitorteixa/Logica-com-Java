@@ -38,11 +38,11 @@ class Main {
 		total = num1 % num2; // resto da divisão
 		System.out.println("resto da divisão: " + total);
 
-		// estrutura sequencial
+		// estrutura sequencial cálculo de área do triângulo
 
 		double base, altura, area;
-		base = 10;
-		altura = 8;
+		base = 10.0;
+		altura = 8.0;
 
 		area = (base * altura) / 2;
 		System.out.println("A área do triângulo é: " + area);
