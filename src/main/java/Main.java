@@ -8,7 +8,9 @@ public class Main {
 		if (nota1 >= 5) {
 			System.out.println("nota1: aprovado");
 
-		}
+		};
+		System.out.println("teste Versionamento");
+		
 		// ESTRUTURA CONDICIONAL COMPOSTA
 
 if(nota2 >= 5)
