@@ -19,5 +19,5 @@ public class Main {
 		} else {
 			System.out.println("nota2: reprovado");
 		}
-	}
+	}}
 
