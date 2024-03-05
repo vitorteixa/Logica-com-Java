@@ -1,14 +1,29 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
+import java.util.Scanner;
 
-// import org.junit.jupiter.api.Test;
 
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
-  }
+    Scanner entrada = new Scanner(System.in);
+		System.out.println("Escolha uma opção: ");
+		System.out.println("1 -  Cadastrar aluno: ");
+		System.out.println("2 -  Cadastrar notas: ");
+		System.out.println("3 -  Listar alunos e notas: ");
 
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
+		int numero = entrada.nextInt();
+		switch(numero){
+				case 1:
+				System.out.println("Cadastro de aluno");
+				break;
+			 case 2: 
+				System.out.println("Cadastro de notas");
+				break;
+			case 3: 
+				System.out.println("Listar alunos e notas");
+				break;
+			default: 
+				System.out.println("Opção inválida");
+		}
+		
+  }
+ 
 }
