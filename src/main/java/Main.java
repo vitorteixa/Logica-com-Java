@@ -1,14 +1,17 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
+class Main {
+	public static void main(String[] args) {
+		// ++ = incremento
+		// -- = decremento
+		for (int cont = 0; cont < 10; cont++) {
 
-// import org.junit.jupiter.api.Test;
+			System.out.println("Valor do contador: " + cont);
 
-public class Main {
-  public static void main(String[] args) {
-    System.out.println("Hello world!");
-  }
+		}
+		;
 
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
+		for (int cont2 = 5; cont2 <= 20; cont2++) {
+			System.out.println("Valor do contador de 5 a 20: " + cont2);
+		}
+	}
+
 }
