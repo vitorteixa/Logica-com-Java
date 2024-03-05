@@ -21,9 +21,11 @@ public class Main {
 				System.out.println("Listar alunos e notas");
 				break;
 			default: 
-				System.out.println("Opção inválida");
+				System.out.println("Opção a");
 		}
 		
   }
+	
+	
  
 }
