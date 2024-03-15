@@ -1,4 +1,3 @@
-import static org.junit.Assert.assertArrayEquals;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -130,7 +129,23 @@ class Main {
 			estados.contains("Manaus");
 			System.out.println(estados);
 		
-				
+		// Praticando com ArrayList
+
+		ArrayList<String> bandas = new ArrayList<String>();
+
+		bandas.add("Metallica");
+		bandas.add("Iron Maiden");
+		bandas.add("Kiss");
+		System.out.println(bandas);
+
+		bandas.add(bandas.indexOf("Kiss"),"Capital inicial");
+		System.out.println(bandas);
+
+		bandas.remove("Kiss");
+		bandas.clear();
+		System.out.println(bandas);
+
+		
 		
 	}
 
