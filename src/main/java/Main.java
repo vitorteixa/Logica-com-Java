@@ -13,16 +13,14 @@ class Main {
 		}
 		;
 		// ESTRUTURA DE REPETIÇÃO: do/while
-		
+
 		int opcao2;
-		do{
+		do {
 			System.out.println("Digite um valor ou 99 para sair: ");
-			Scanner entrada2 =  new Scanner(System.in); 
+			Scanner entrada2 = new Scanner(System.in);
 			opcao2 = entrada2.nextInt();
-					}
-			while(opcao2 != 99);
-						
-	
+		} while (opcao2 != 99);
+
 		// ESTRUTURA DE REPETIÇÃO: for
 		// ++ = incremento
 		// -- = decremento
@@ -31,9 +29,19 @@ class Main {
 			System.out.println("Valor do contador: " + cont);
 		}
 
-		for (int cont2 = 5; cont2 <= 20; cont2++) {
-			System.out.println("Valor do contador de 5 a 20: " + cont2);
+		for (int cont2 = 5; cont2 <= 10; cont2++) {
+			System.out.println("Valor do contador de 5 a 10: " + cont2);
 		}
+		;
+
+		// ESTRUTURA DE REPETIÇÃO: aninhada
+		// i = esquerda
+		// j = direita
+		for (int i = 0; i <= 10; i++)
+			for (int j = 0; j <= 10; j++)
+				System.out.println(j + " X " + i + "=" + (i * j));
+		System.out.println("----------------------");
+
 	}
 
 }
