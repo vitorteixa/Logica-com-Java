@@ -108,6 +108,11 @@ class Main {
 		for (int i = 0; i < 3; i++)
 			if (matriz[i][2] < menorColuna[2])
 				menorColuna[2] = matriz[i][2];
+
+		for(int i = 0; i<3; i++)
+			for(int j = 0;j<3;j++)
+				if(maiorLinha[i] == menorColuna[j])
+					System.out.println("Ponto de sela: " + maiorLinha[i]);
 	}
 
 }
