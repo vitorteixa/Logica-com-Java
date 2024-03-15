@@ -1,3 +1,5 @@
+import static org.junit.Assert.assertArrayEquals;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 class Main {
@@ -109,10 +111,27 @@ class Main {
 			if (matriz[i][2] < menorColuna[2])
 				menorColuna[2] = matriz[i][2];
 
-		for(int i = 0; i<3; i++)
-			for(int j = 0;j<3;j++)
-				if(maiorLinha[i] == menorColuna[j])
+		for (int i = 0; i < 3; i++)
+			for (int j = 0; j < 3; j++)
+				if (maiorLinha[i] == menorColuna[j])
 					System.out.println("Ponto de sela: " + maiorLinha[i]);
+
+		// List e arrayList
+
+			ArrayList<String> estados = new ArrayList<String>();
+		
+			estados.add("Espirito Santo");
+			estados.add("Minas Gerais");
+			estados.add("Rio de Janeiro");
+			estados.add("Manaus");
+
+			estados.remove("Rio de Janeiro");
+
+			estados.contains("Manaus");
+			System.out.println(estados);
+		
+				
+		
 	}
 
 }
